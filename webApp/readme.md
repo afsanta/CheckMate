@@ -14,3 +14,5 @@ We also recommend setting debug to False (at the bottom of the file), as the deb
 The gist will be to run the following after you have the requirements installed:
 
 ```python app.py```
+
+To work with the app, you will need to change the url endpoints at the top of each view class. To ensure that this works correctly, the app will expect to have a valid https server and certificate (we don't want to transmit sensitive information over the open internet and have it stolen!).
